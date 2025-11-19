@@ -1,0 +1,14 @@
+{
+    "name": "airaphp/framework",
+    "description": "A lightweight PHP mini framework.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "System\\": "system/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}
