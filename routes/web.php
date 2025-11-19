@@ -3,8 +3,9 @@
 /** @var \System\Routing\Router $router */
 
 $router->get('', function () {
-    echo "Welcome to AiraPHP Home Route!";
+    echo view('home', ['name' => 'Rahul']);
 });
+
 
 $router->get('about', function () {
     echo "This is the About page!";
